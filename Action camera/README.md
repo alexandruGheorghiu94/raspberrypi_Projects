@@ -38,3 +38,6 @@ After doing all this there are 2 more steps you need to do:
 * Opening a terminal
 * typing sudo nano /etc/rc.local
 * adding at the end of the script but not after the exit 0 line the following line: sudo python3 /home/pi/Desktop/script.py &.
+
+## Hooking everything up together 
+To be continued....
