@@ -1,5 +1,5 @@
 # Action camera
-A very compact DIY camera that has similat functionality and specs with a GoPro.
+A very compact DIY camera that has similar functionality and specs with a GoPro.
 
 ## Features:
 * Built-in screen for displaying several usefull info: memory left, time, quality of photo and video
