@@ -23,7 +23,7 @@ sudo apt-get update
 sudo apt-get install build-essential python-dev python-pip
 sudo pip install RPi.GPIO
 
-* imaging labrary
+* imaging library
 sudo apt-get install python-imaging python-smbus
 
 * the SSD1306 library made by Adafruit
@@ -40,4 +40,5 @@ After doing all this there are 2 more steps you need to do:
 * adding at the end of the script but not after the exit 0 line the following line: sudo python3 /home/pi/Desktop/script.py &.
 
 ## Hooking everything up together 
-To be continued....
+* 4 buttons to GPIO 23, 18, 17 and 27
+* the OLED display SDA & SCL connections to the designated pint on the board (see GPIO pinout for your raspberry pi)
