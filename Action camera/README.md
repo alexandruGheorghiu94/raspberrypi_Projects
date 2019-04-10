@@ -18,12 +18,12 @@ A very compact DIY camera that has similar functionality and specs with a GoPro.
 
 ## Software:
 In order to run the script you need to have installed th following libraries:
-* RPi.GPOI
+* the RPi.GPOI library
   - sudo apt-get update
   - sudo apt-get install build-essential python-dev python-pip
   - sudo pip install RPi.GPIO
 
-* imaging library
+* the imaging library
   - sudo apt-get install python-imaging python-smbus
 
 * the SSD1306 library made by Adafruit
