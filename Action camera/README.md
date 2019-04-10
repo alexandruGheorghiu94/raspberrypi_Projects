@@ -19,18 +19,18 @@ A very compact DIY camera that has similar functionality and specs with a GoPro.
 ## Software:
 In order to run the script you need to have installed th following libraries:
 * RPi.GPOI
-- sudo apt-get update
-- sudo apt-get install build-essential python-dev python-pip
-- sudo pip install RPi.GPIO
+  - sudo apt-get update
+  - sudo apt-get install build-essential python-dev python-pip
+  - sudo pip install RPi.GPIO
 
 * imaging library
-sudo apt-get install python-imaging python-smbus
+  - sudo apt-get install python-imaging python-smbus
 
 * the SSD1306 library made by Adafruit
-sudo apt-get install git
-git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git
-cd Adafruit_Python_SSD1306
-sudo python3 setup.py install
+  - sudo apt-get install git
+  - git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git
+  - cd Adafruit_Python_SSD1306
+  - sudo python3 setup.py install
 
 After doing all this there are 2 more steps you need to do:
 1) you copy the script from this repository onto your desktop's pi 
