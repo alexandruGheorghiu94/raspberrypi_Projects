@@ -19,9 +19,9 @@ A very compact DIY camera that has similar functionality and specs with a GoPro.
 ## Software:
 In order to run the script you need to have installed th following libraries:
 * RPi.GPOI
-sudo apt-get update
-sudo apt-get install build-essential python-dev python-pip
-sudo pip install RPi.GPIO
+** sudo apt-get update
+** sudo apt-get install build-essential python-dev python-pip
+** sudo pip install RPi.GPIO
 
 * imaging library
 sudo apt-get install python-imaging python-smbus
